@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BAZAR24 Online</title>
+</head>
+
+<body>
+    <header>
+        <h1><b>BAZAR.24</b></h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="product-filter">
+            <form id="filter-form">
+                <div>
+                    <label for="searchbar">Productos</label>
+                    <input id="searchbar" placeholder="Buscar..." name="searchbar">
+                </div>
+                <div>
+                    <label for="price-search">Precio máximo</label>
+                    <input id="price-search" placeholder="109.95" type="number" name="price-search">
+                </div>
+                <div>
+                    <label for="category-select">Categoría</label>
+                    <select id="category-select">
+                        <option value="all">Todas</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+        <section id="product-list">
+            </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
